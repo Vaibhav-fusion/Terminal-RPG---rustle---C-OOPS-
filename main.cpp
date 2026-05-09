@@ -1,6 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std ;
 
+class Player{
+    public:
+    string name;
+
+    Player(){
+        name = "";
+    }
+};
 
 class Game{
     public: 
